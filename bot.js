@@ -11,8 +11,9 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
   if (msg.content === prefix + 'help') {
-    msg.reply('COMMANDS');
-    msg.reply('!ping');
+    msg.reply('COMMANDS:');
+    msg.reply('!ping,');
+    msg.reply('new commands and features will come soon. Thanks for using, our website: www.funnybot.tk');
   }
 });
 
