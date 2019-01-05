@@ -1,0 +1,30 @@
+{
+  "name": "Funny Bot",
+  "version": "0.0.1",
+  "description": "FunnyBot",
+  "readme": "README.md",
+  "author": "TechnoCoder",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordapp"
+  ],
+  "license": "MIT",
+  "main": "bot.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "query-string": "3.*",
+    "request": ">=2.58.0",
+    "youtube-node": "1.2.x"
+  }
+}
