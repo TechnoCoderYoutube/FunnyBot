@@ -11,4 +11,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('NTMxMTI1OTEwMTE2NzYxNjIw.DxJZzg.JCkHYUOWXaAp4pGuuqOtkphXBnI');
+client.login('nabacan');
