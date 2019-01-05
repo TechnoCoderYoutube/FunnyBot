@@ -13,6 +13,7 @@ client.on('message', msg => {
   if (msg.content === prefix + 'help') {
     msg.reply('COMMANDS');
     msg.reply('!ping');
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
