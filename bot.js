@@ -11,4 +11,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('nabacan');
+client.login(process.env.BOT_TOKEN);
