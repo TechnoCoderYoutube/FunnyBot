@@ -16,7 +16,7 @@ client.on('message', msg => {
     msg.reply('new commands and features will come soon. Thanks for using, our website: https://www.funnybot.tk');
   }
   if (msg.content === 'hey'){
-  msg.reply(', Hows it going??? Welcome');
+  msg.reply('Hows it going??? Welcome');
             }
 });
 
