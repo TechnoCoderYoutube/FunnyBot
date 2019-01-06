@@ -13,10 +13,15 @@ client.on('message', msg => {
   if (msg.content === prefix + 'help') {
     msg.reply('COMMANDS:');
     msg.reply('!ping,');
+    msg.replY('hey');
+    msg.reply('!moderator');
     msg.reply('new commands and features will come soon. Thanks for using, our website: https://www.funnybot.tk');
   }
   if (msg.content === 'hey'){
   msg.reply('Hows it going??? Welcome');
+            }
+    if (msg.content === prefix + 'moderator'){
+  msg.reply('To be a Moderator, You need to fill in this form: https://goo.gl/forms/T7Lrh48JFQKv9wNY2');
             }
 });
 
